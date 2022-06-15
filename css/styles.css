@@ -847,7 +847,6 @@ body {
 	width: 528px;
 	height: 581px;
 	background-color: var(--primary-white-color);
-	padding: 40px;
 }
 
 .modal-close-btn {
@@ -874,6 +873,7 @@ body {
 .contact-form{
 	display: flex;
 	flex-direction: column;
+	padding: 40px;
 }
 
 .contact-form-field{
@@ -957,6 +957,7 @@ body {
 
 .contact-form-checkbox-label{
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	font-size: 14px;
 	margin-bottom: 30px;
@@ -983,6 +984,9 @@ body {
 }
 .contact-form-checkbox:focus + .contact-form-checkbox-label::before {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.contact-form-checkbox-link{
+	color: var(--accent-color);
 }
 
 .contact-form-btn {
